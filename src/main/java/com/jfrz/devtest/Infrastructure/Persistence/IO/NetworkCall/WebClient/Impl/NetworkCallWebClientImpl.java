@@ -16,7 +16,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 //@Component
 @RequiredArgsConstructor
-public final class NetworkCallWebClientImplementation implements NetworkCall {
+public final class NetworkCallWebClientImpl implements NetworkCall {
 
     private final WebClient webClient;
 
