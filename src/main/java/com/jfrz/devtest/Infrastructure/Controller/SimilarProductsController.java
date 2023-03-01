@@ -1,4 +1,4 @@
-package com.jfrz38.test.Infrastructure.Controller;
+package com.jfrz.devtest.Infrastructure.Controller;
 
 public interface SimilarProductsController {
 }
