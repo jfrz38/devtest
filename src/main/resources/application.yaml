@@ -1,0 +1,7 @@
+server:
+  port: 5000
+  error:
+    include-message: always
+app:
+  products:
+    url: http://localhost:3001/product/
