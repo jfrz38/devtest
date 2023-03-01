@@ -1,7 +1,7 @@
 package com.jfrz.devtest.Infrastructure.Persistence.Repository.NetworkCall.Impl;
 
-import com.jfrz.devtest.Domain.Vo.ProductIdVo;
 import com.jfrz.devtest.Domain.Vo.ProductDetailIdVo;
+import com.jfrz.devtest.Domain.Vo.ProductIdVo;
 import com.jfrz.devtest.Infrastructure.Persistence.Entity.ProductDetailEntity;
 import com.jfrz.devtest.Infrastructure.Persistence.IO.CircuitBreaker.CustomCircuitBreaker;
 import com.jfrz.devtest.Infrastructure.Persistence.Repository.ProductRepository;
@@ -16,10 +16,9 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public final class ProductRepositoryNetworkCallImpl implements ProductRepository {
 
+    private final CustomCircuitBreaker customCircuitBreaker;
     @Value("${app.products.url}")
     private String productsUrl;
-
-    private final CustomCircuitBreaker customCircuitBreaker;
 
     @Override
     public Optional<List<Integer>> findSimilarById(ProductIdVo productId) {

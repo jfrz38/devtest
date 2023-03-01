@@ -7,7 +7,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Component
 @RequiredArgsConstructor
-public final class NetworkCallRestTemplateImplementation implements NetworkCall {
+public final class NetworkCallRestTemplateImpl implements NetworkCall {
 
     private final RestTemplate restTemplate;
 
