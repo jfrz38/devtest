@@ -1,11 +1,11 @@
 package com.jfrz.devtest.Service.Find.Impl;
 
-import com.jfrz38.test.Domain.Dto.ProductDetailDto;
-import com.jfrz38.test.Domain.Vo.ProductDetailIdVo;
-import com.jfrz38.test.Domain.Vo.ProductIdVo;
-import com.jfrz38.test.Infrastructure.Persistence.Repository.ProductRepository;
-import com.jfrz38.test.Service.Find.FindSimilarProductService;
-import com.jfrz38.test.Service.Mapping.ProductDetailMapper;
+import com.jfrz.devtest.Domain.Dto.ProductDetailDto;
+import com.jfrz.devtest.Domain.Vo.ProductDetailIdVo;
+import com.jfrz.devtest.Domain.Vo.ProductIdVo;
+import com.jfrz.devtest.Infrastructure.Persistence.Repository.ProductRepository;
+import com.jfrz.devtest.Service.Find.FindSimilarProductService;
+import com.jfrz.devtest.Service.Mapping.ProductDetailMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

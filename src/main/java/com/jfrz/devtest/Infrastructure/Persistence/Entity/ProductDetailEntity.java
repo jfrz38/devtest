@@ -1,4 +1,4 @@
-package com.jfrz38.test.Infrastructure.Persistence.Entity;
+package com.jfrz.devtest.Infrastructure.Persistence.Entity;
 
 import lombok.Getter;
 import lombok.Setter;

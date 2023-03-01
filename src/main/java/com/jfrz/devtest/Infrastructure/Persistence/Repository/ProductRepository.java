@@ -1,8 +1,8 @@
-package com.jfrz38.test.Infrastructure.Persistence.Repository;
+package com.jfrz.devtest.Infrastructure.Persistence.Repository;
 
-import com.jfrz38.test.Domain.Vo.ProductDetailIdVo;
-import com.jfrz38.test.Domain.Vo.ProductIdVo;
-import com.jfrz38.test.Infrastructure.Persistence.Entity.ProductDetailEntity;
+import com.jfrz.devtest.Domain.Vo.ProductDetailIdVo;
+import com.jfrz.devtest.Domain.Vo.ProductIdVo;
+import com.jfrz.devtest.Infrastructure.Persistence.Entity.ProductDetailEntity;
 
 import java.util.List;
 import java.util.Optional;
